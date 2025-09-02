@@ -1,0 +1,12 @@
+adjective = input("Enter a adjective:")
+place = input("Enter an place:")
+food = input("Enter a food:")
+person = input("Enter a person:")
+
+print("Well, sometimes I feel like I don't wanna be where I am")
+print("Gettin' drunk at a " + place + "with my " + adjective+ " friends")
+print("Push away all the people who know me the best")
+print("But it's me who's been making the " + food)
+print( person+ " who's been making the "+ food)
+print("Pull the sheets over my head")
+print( person +" Making the " + food)

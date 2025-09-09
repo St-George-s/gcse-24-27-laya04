@@ -38,4 +38,10 @@ print(multiply)
 
 
 # Activity 1 - input user's age, output times 7
+age1 = input(" Enter an age:")
+answer = int(age1) * int(7)
+print(answer)
+
 # Activity 1 - take radius as input, output volume of sphere (v = 4/3 x pi x r^3)
+radius1 = float(input(" Enter a radius:"))
+print("Volume of sphere with radius ", radius1, " is ", 4/3 * 3.14159 * radius1 ** 3)

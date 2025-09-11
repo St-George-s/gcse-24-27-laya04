@@ -42,8 +42,12 @@
 #     print(total)
               
 #question10
-for counter1 in range(1,13):
-    for counter2 in range(1, 1): 
-       print(counter1, "x", counter2, " = ", counter1 * counter2) 
+# for counter1 in range(1,13):
+#     for counter2 in range(1, 1): 
+#        print(counter1, "x", counter2, " = ", counter1 * counter2) 
 
-#
+#Extension 
+YourTable = int(input("Enter your timeTable: "))
+howFar = int(input("Enter how far: "))
+for counter in range(1,howFar+1):
+    print(counter * YourTable)

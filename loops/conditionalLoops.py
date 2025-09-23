@@ -31,10 +31,15 @@
 # print("password accepted")
 
 #question15
-password = input("What is your password?")
-passwordLen = len(password)
-while int(passwordLen) <= 5:
-       print("No,you are wrong")
-#       password = input("Write another password:")
-#       passwordLen = len(password)
-# print("password accepted")
+# anotherEpisode = input("Would you like to watch another episode of modern family?")
+# while anotherEpisode == "yes":
+#        print("playing another episode")
+#        anotherEpisode = input("Would you like to watch another episode of modern family?")
+# print("Goodbye")
+
+#question16
+# moneyAmount = int(input("Enter an amount of money?"))
+# while moneyAmount < 100:
+#        print("Offer not accepted, enter more money")
+#        moneyAmount = moneyAmount+ int(input("Enter an amount of money?"))
+# print("Offer accepted")

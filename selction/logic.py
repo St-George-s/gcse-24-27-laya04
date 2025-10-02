@@ -43,3 +43,35 @@
 #     print(" you are driving safely, continue")
 # elif weather == "rainy" and carSpeed >60:
 #     print(" you are driving unsafely")
+
+#Question6
+# HoursStudied = int(input("Enter hours studied:"))
+
+# if HoursStudied >5:
+#     print(" you are prepared, continue")
+# elif HoursStudied <5:
+#     print(" you are not prepared")
+
+#Queastion7
+# Homework = int(input("Enter amount of homeworks:"))
+# HomeworkPending = float(input("Enter amount of pending homeworks: "))
+# if Homework >5 and HomeworkPending <2:
+#     print(" you are have not a lot of homeworks left!!!")
+# elif Homework <5 and HomeworkPending >2:
+#     print(" you are not prepared")
+
+# #Question8
+# savings = 100 
+# price = 80 
+# is_on_sale = False 
+# if savings > price or is_on_sale: 
+#     print("The purchase can be made.") 
+# else: 
+#     print("The purchase cannot be made.") 
+#Question9
+# is_sunny = True 
+# is_weekend = True 
+# if (is_sunny and is_weekend) or (not is_sunny and not is_weekend): 
+#     print("The conditions are met.") 
+# else: 
+#     print("The conditions are not met.") 

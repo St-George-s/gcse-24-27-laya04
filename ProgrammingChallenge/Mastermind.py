@@ -54,14 +54,18 @@ counter=0
 numbersGuessed = []
 userNumber = ""
 guesses=0
-while counter != 4:
+while userNumber != RandomNumber:
+    counter = 0
     userNumber = input("Enter a random number: ")
-    guesses=guesses = 1
+    guesses= guesses + 1
+    # thats 1 to gues so can print total number of gueses at the end
     for index in range(len(RandomNumber)):
         for indexTwo in range(len(userNumber)):
+            # checks the position of one number against the another number
             if RandomNumber[index] == userNumber[indexTwo] and userNumber[indexTwo] not in numbersGuessed:
+                #only adds new numbers in common into array
                 numbersGuessed.append(userNumber[indexTwo])
                 counter = counter + 1
-                print(counter, "numbers common")
-                print(numbersGuessed)
+    print(counter, "numbers common")
+    # print(numbersGuessed)
 print("You have found the number in", guesses,"guesses" )

@@ -6,7 +6,7 @@ blankword = ""
 for i in range (len(word)):
     blankword = blankword + "_"
 print(blankword)
-while chances != 0:
+while chances > 0:
     while word != blankword:
         userguess = input("Enter a new letter: ")
         found = False

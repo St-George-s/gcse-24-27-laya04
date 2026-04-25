@@ -1,12 +1,12 @@
 #Linear Search
 #Create an array
 def linearSearch(searchValue, searchList):
-    names = ["Debbie", "Jessie", "Vigdis", "Emilia"]
+    #searchList = ["Debbie", "Jessie", "Vigdis", "Emilia"]
     found = False
     index = 0
 
-    while not found and index < len(names):
-        if searchValue == names[index]:
+    while not found and index < len(searchList):
+        if searchValue == searchList[index]:
             found = True
         else:
             index += 1

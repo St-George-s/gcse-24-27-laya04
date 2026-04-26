@@ -89,7 +89,7 @@
 #         found = False
 #     else:
 #         print("Dana is in the list")
-# num = [10, 15, 20, 25, 30]
+# # num = [10, 15, 20, 25, 30]
 # found = False
 # usernum = 25
 # for i in range(len(num)):
@@ -170,8 +170,27 @@
 # with open("file.txt", "r") as file:
 #     print(file.read())
 #Append a new line of text to an existing file.
-with open("file.txt", "a") as file:
-    file.write(" My name is liya")
+# with open("file.txt", "a") as file:
+#     file.write(" My name is liya")
 #Count how many lines are in a file.
 #Read a file and print each line in uppercase.
 #Write 5 user-input names into a file.
+# names = ["Ali", "Ben", "Chloe", "Dana", "Ethan"]
+# found = False
+# searchname = "Dana"
+# for name in names:
+#     if name != searchname:
+#         found = False
+#     else:
+#         print("Dana is in the list")
+
+names = ["Ali", "Ben", "Chloe", "Dana", "Ethan"]
+found = False
+searchname = "Dana"   
+index = 0
+while found == False and index < len(names):
+    if searchname == names[index]:
+        found = True
+        print("Dana is found at", index)
+    index = index + 1
+
